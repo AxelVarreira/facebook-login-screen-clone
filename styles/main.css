@@ -1,0 +1,20 @@
+:root{
+    --background-color: #F0F2F5;
+    --primary-color: #1977ED; 
+    --secondary-color: #45B73C;
+    --tertiary-color: #000000;
+    --small-text: #9a9996;
+    --link-color: #3E7BED;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}

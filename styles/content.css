@@ -1,0 +1,124 @@
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--background-color);
+
+    height: 76vh;
+}
+
+
+#content .recentLogin{
+    /* margin: 300px 250px; */
+    margin-bottom: 447px;
+    margin-right: 250px;
+}
+
+#content .recentLogin .logo-content{
+    padding-left: 20px;
+}
+
+#content .recentLogin .logo-content .loginText{
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--tertiary-color);
+    margin-bottom: 10px;
+}
+
+#content .recentLogin .logo-content p{
+    font-weight: lighter;
+    color: var(--small-text);
+}
+
+#content .login-content .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    padding: 25px 15px 25px;
+    /* margin-top: 50px; */
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+
+    border-radius:8px ;
+}
+
+#content .login-content input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    position: relative;
+
+    padding: 20px 100px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    outline: none;
+}
+
+#content .login-content input::placeholder{
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+}
+
+#content .login-content .btnEntrar{
+    padding: 12px 148px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    font-size: 20px;
+
+    font-weight: bold;
+    color: white;
+}
+
+#content .login-content a{
+    text-decoration: none;
+    margin: 20px 0px;
+    font-size: 14px;
+    color: var(--link-color);
+}
+
+#content .login-content a:hover{
+    text-decoration: underline;
+}
+
+#content .login-content span{
+    padding: 1px 180px;
+    background-color: var(--small-text);
+    opacity: 25%;
+    margin-bottom: 15px;
+}
+
+#content .login-content .btnNovaConta{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 8px;
+
+    padding: 15px 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#content .login-content .loginFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+#content .login-content .loginFooter a{
+    font-size: 14px;
+}
