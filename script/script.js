@@ -1,7 +1,7 @@
 const footerTop = document.querySelector('footer .top');
 const footerBottom = document.querySelector ('footer .bottom');
-console.log(footerTop);
-console.log(footerBottom);
+const card = document.querySelector('#content .recentLogin .cards .card');
+const tooltip = document.querySelector('#content .recentLogin .cards #tooltip');
 
 const linksList = [
     "Lorem", 
@@ -68,4 +68,4 @@ function links(){
 }
 
 
-links();
+links(); 

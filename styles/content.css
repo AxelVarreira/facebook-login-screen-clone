@@ -52,12 +52,14 @@
     flex-direction: column;
     margin-bottom: 15px;
 
+
     position: relative;
 
-    padding: 20px 100px;
+    padding: 20px;
     border-radius: 5px;
     border: 1px solid #dddfe2;
     outline: none;
+    width: 100%;
 }
 
 #content .login-content input::placeholder{
